@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+p{
+    margin: 16px;
+}
+.container1{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-image: url(./assets/68bfc6a08b80fe11600a1ed799cb08d8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: opacity(80%)
+}
+.container2{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url(./assets/4209803.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: opacity(80%)
+}
+.container3{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url(./assets/NYC+Hotels+Best+Views.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: opacity(80%)
+}
+.section1{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    background-attachment: fixed;
+    color: grey;
+    word-spacing: 5px;
+    line-height: 24px;
+}
+.section2{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #333F48;
+}
+.text2{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    margin-top: 55px;
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+    word-spacing: 5px;
+    line-height: 24px;
+}
+.box1{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 450px;
+    height: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #97999B;
+    letter-spacing: 7px;
+}
+.box2{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 360px;
+    height: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 7px;
+}
+
+.box3{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 7px;
+}
+#pre-slider{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    letter-spacing: 24px;
+}
+.background-container{
+    width: 100%;
+    height: 850px;
+    background-color: #333F48;
+}
+.slider-container{
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.image-container{
+    width: 2400px;
+    height: 600px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    filter: opacity(90%);
+   
+}
+.slider-image{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button-container{
+    top: -20px;
+    position: relative;
+}
+.slider-button{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: grey;
+}
+#slider-image-1:target ~ .image-container{
+    left: 0px;
+}
+#slider-image-2:target ~ .image-container{
+    left: -800px;
+}
+#slider-image-3:target ~ .image-container{
+    left: -1600px;
+}
+
+

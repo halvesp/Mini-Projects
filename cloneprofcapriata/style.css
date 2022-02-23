@@ -1,0 +1,330 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Pragmatica Medium" ,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.backimg{
+    width: 1583px;
+    height: 900px;
+    background-image: url(./assets/capa-blogpost-06.12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tbl{
+    width: 800px;
+    word-spacing: 20px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 700px;
+    color: white;
+}
+.apresentation{
+    width: 1000px;
+    position: absolute;
+    color:white;
+    line-height: 0.1px;
+    margin-top: 300px;
+    margin-left: 300px;
+    font-size: 80px;   
+}
+.colorchange{
+    color: #FFC845;
+    font-size: 50px;
+    margin-left: 250px;
+}
+.frase{
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    font-size: 20px;
+    border-radius: 25px;
+    position: absolute;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border: white solid;
+    margin-top: 500px;
+    margin-left: 660px;
+    text-decoration: none;
+    color: white;
+}
+.button:hover{
+    border-color: #0067AC;
+    background-color: #0067AC;
+    transition: all 0.4s ease-in
+}
+.menu:hover{
+    color: #FFC845;
+    transition: all 0.2s ease-in
+}
+#spacing{
+    word-spacing: 1px;
+    padding-right: 20px;
+}
+.logo{
+    position: absolute;
+    width: 530px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.courses{
+    display: block;
+    width: 1583px;
+    height: 1000px;
+}
+.afterap{
+    font-size: 35px;
+    margin-left: 5cm;
+    color: #13294B;
+    
+}
+.course1{
+    position: absolute;
+    display: table-cell;
+    border: 1px solid;
+    border-color: gainsboro;
+    margin-left: 190px;
+    width: 281px;
+    height: 370px;
+}
+.course2{
+    position: absolute;
+    display: table-cell;
+    border: 1px solid;
+    border-color: gainsboro;
+    margin-left: 510px;
+    width: 281px;
+    height: 370px;
+}
+.course3{
+    position: absolute;
+    display: table-cell;
+    border: 1px solid;
+    border-color: gainsboro;
+    margin-left: 830px;
+    width: 281px;
+    height: 370px;
+}
+.course4{
+    position: absolute;
+    display: table-cell;
+    border: 1px solid;
+    border-color: gainsboro;
+    margin-left: 1150px;
+    width: 281px;
+    height: 370px;
+}
+.course5{
+    position: absolute;
+    display: table-cell;
+    border: 1px solid;
+    border-color: gainsboro;
+    margin-top: 10.8cm;
+    margin-left: 17.5cm;
+    width: 281px;
+    height: 370px;
+}
+.course1:hover{
+    box-shadow: 0.1px 0.1px 15px gray; 
+    transition: all 0.1s ease-in
+}
+.course2:hover{
+    box-shadow: 0.1px 0.1px 15px gray; 
+    transition: all 0.1s ease-in
+}
+.course3:hover{
+    box-shadow: 0.5px 0.1px 15px gray; 
+    transition: all 0.1s ease-in
+}
+.course4:hover{
+    box-shadow: 0.1px 0.1px 15px gray; 
+    transition: all 0.1s ease-in
+}
+.course5:hover{
+    box-shadow: 0.1px 0.1px 15px gray; 
+    transition: all 0.1s ease-in
+}
+.textcourse{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.textcourse:hover{
+    color: #efb810;
+    transition: all 0.1s ease-in
+}
+.finanças{
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+hr{
+    width: 240px;
+    color: gainsboro;
+}
+.abtme{
+    background-color: #211d1a;
+    width: 1583px;
+    height: 700px;
+}
+.yellowbox{
+    float: right;
+    background-color: #FFC845;
+    width: 600px;
+    height: 700px;
+}
+#imgyellow{
+    margin-top: 5.49cm;
+}
+.abtmetext{
+    font-size: 20px;
+    margin-top: 2.5cm;
+    margin-left: 5cm;
+    line-height: 30px;
+    color: white;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+}
+.whatslogo{
+    margin-left: 1cm;
+    position: fixed;
+    bottom: 1%;
+    width: 8em;
+    margin-bottom: 20px;
+}
+.wrapper:hover{
+    filter: brightness(40%);
+    transition: all 0.1s ease-in
+}
+#contentline{
+    width: 1200px;
+}
+.content1{
+    position: absolute;
+    width: 350px;
+    height: 370px;
+    margin-left: 190px;
+}
+.content2{
+    position: absolute;
+    width: 350px;
+    height: 370px;
+    margin-left: 600px;
+}
+.content3{
+    width: 350px;
+    height: 370px;
+    margin-left: 1050px;
+}
+.aluno1{
+    margin-left: 100px;
+}
+.blueline{
+    background-color: cornflowerblue;
+    width: 30px;
+    height: 2px;
+    margin-right: 220px;
+}
+.imgcontent{
+    position: absolute;
+}
+.container{
+    color: grey;
+}
+.fontcolor{
+    color: #13294B;
+}
+.resources{
+    background-color: whitesmoke;
+    width: 1583px;
+    height: 500px;
+}
+.final{
+    width: 1583px;
+    height: 80px;
+    background-color:#1d334a;
+}
+.textres{
+    color: #13294B;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 30px;
+    font-size: 35px;
+}
+.posttextres{
+    color: #13294B;
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 100px;
+    font-size: 15px;
+}
+.ref{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-left: 170px;
+    font-size: 14px;
+}
+.resimg1{
+    position: absolute;
+    width: 200px;
+    height: 370px;
+    margin-top: 200px;
+    margin-left: 190px;
+
+}
+.resimg2{
+    position: absolute;
+    width: 200px;
+    height: 370px;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.resimg3{
+    position: absolute;
+    width: 200px;
+    height: 370px;
+    margin-top: 200px;
+    margin-left: 810px;
+}
+.resimg4{
+    position: absolute;
+    width: 200px;
+    height: 370px;
+    margin-top: 200px;
+    margin-left: 1120px;
+
+}
+.subtext{
+    font-size: 25px;
+    color: #13294B;
+}
+.text{
+    color: grey;
+}
+.text:hover{
+    color: #13294B;
+    transition: all 0.15s ease-in
+}
+.leftadj{
+    margin-left: 50px;
+}
+@media screen and (max-width: 400px)
+{
+
+    
+
+
+
+    
+}
+
+
+
